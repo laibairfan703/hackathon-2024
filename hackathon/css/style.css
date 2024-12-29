@@ -1,0 +1,92 @@
+:root {
+    --background-color: #f9f9f9;
+    --main-color: #1c5cff;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+#search {
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 100px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.links>a {
+    padding-left: 10px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header {
+    margin: 50px;
+}
+
+.group-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group-column {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.column {
+    width: 45%;
+    padding: 20px;
+    border-radius: 8px;
+    height: 440px;
+}
+
+.btn-topics {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #ffffff;
+}
+
+.small-box {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-body {
+    margin: auto;
+}
+
+#email,
+#password {
+    border-radius: 10px;
+    height: 42px;
+    width: 360px;
+    padding-left: 10px;
+}
